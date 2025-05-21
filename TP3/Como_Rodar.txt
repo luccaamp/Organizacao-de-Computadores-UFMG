@@ -1,0 +1,82 @@
+Integrantes:
+
+  *   Lucca Alvarenga de Magalhães Pinto - 2021036736
+  *   Lucas Rafael Costa Santos - 2021017723
+  *   Lucas Ferreira Pedras - 2021030835
+
+Observação: 
+  * Como o enunciado do projeto foi alterado devido aos erros cometidos em alguns exemplos, 
+    temos 2 implementações do trabalho: o arquivo "simulador.py" que foi feito com o enunciado antigo (que tinha erro), 
+    e "simulador2.py" que foi feito com base no enunciado corrigido.
+
+  * A pasta "output1" inclui todos as saídas corretas do arquivo "simulador.py" para cada exemplo dado no enunciado ORIGINAL 
+    (que tinha erro) do projeto. 
+
+  * A pasta "output2" inclui todos as saídas corretas do arquivo "simulador2.py" para cada exemplo dado no enunciado CORRIGIDO 
+  do projeto. 
+
+  * Abaixo é descrito como rodar o programa com base no arquivo "simulador.py", para rodar "simulador2.py" basta apenas trocar 
+  esses nomes !!!
+
+
+Como executar o programa:
+
+*   Para executar o programa, dê cd no seu terminal para o diretório raiz do projeto.
+
+*   Digite e execute a seguinte linha no seu terminal:
+
+        python3 simulador.py <tamanho total da cache (bytes)> <tamanho de cada linha (bytes)> <tamanho de cada grupo (unidades)> <caminho do arquivo com acessos à memória>
+
+*   O arquivo do nosso programa é o "simulador.py"
+
+*   O usuário deve fornecer os 4 argumentos obrigatórios:
+
+        <tamanho total da cache (bytes)>
+
+        <tamanho de cada linha (bytes)>
+
+        <tamanho de cada grupo (unidades)>
+
+        <caminho do arquivo com acessos à memória>
+
+Saída:
+
+*   Ao final da execução, o programa escreverá em um arquivo chamado "output.txt" os resultados: o estado atual da cache após cada acesso à memória, 
+    o número de hits e o número de misses durante os acessos à memória.
+
+
+Exemplos:
+        
+*   Exemplo 1: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade Completa
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 4 ./input/1.txt
+
+
+*   Exemplo 2: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade Completa
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 4 ./input/2.txt
+
+
+*   Exemplo 3: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade Completa
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 4 ./input/3.txt
+
+
+*   Exemplo 4: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade Completa
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 4 ./input/4.txt
+
+
+*   Exemplo 5: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade de 2 vias
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 2 ./input/5.txt
+
+*   Exemplo 6: cache de tamanho 4K (4096 bytes), linhas de tamanho 1K(1024 bytes), Associatividade de 1 via
+
+        Comandos que devem ser escritos no terminal:
+                python3 simulador.py 4096 1024 1 ./input/6.txt

@@ -1,0 +1,4 @@
+Exemplo 2: Foi dado 7 entradas e foi printado apenas 6 vezes a cache
+
+Exemplo 5, 6: Fizemos o arquivo "simulador2.py" que pode ser rodado como se fosse o arquivo base "simulador.py", que considera 
+os errros corrigidos dos exemplos 5 e 6 do enunciado. O erro estava na forma que se calculava o endereço de memória.
